@@ -8,7 +8,8 @@ public class BootReceiver extends BroadcastReceiver{
 
 	@Override
 	public void onReceive(Context context, Intent intent) {
-		context.startService(new Intent(context,UpdaterService.class));		
+		context.startService(new Intent(context,UpdaterService.class));
+		//Added to check git synchronizing
 	}
 
 }
